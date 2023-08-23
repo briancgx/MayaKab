@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-image: url('images/banner-chichen-itza-estrellas.jpg');
     color: #fff;
     padding: 10px 0;
 }
@@ -107,4 +107,11 @@ footer {
 .product-card p {
     color: #666;
     font-size: 14px;
+}
+.logo{
+    margin-top: 10px;
+}
+.product-card:hover {
+    transform: translateY(-5px); /* Levanta un poco la tarjeta */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Añade una sombra más pronunciada */
 }

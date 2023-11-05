@@ -78,7 +78,7 @@ footer {
     max-width: 100%;
     display: flex;
     flex-wrap: wrap;
-    gap: 15px; /* Espaciado entre tarjetas */
+    gap: 15px;
     justify-content: space-between;
 }
 
@@ -86,7 +86,7 @@ footer {
     border: 1px solid #e0e0e0;
     padding: 10px;
     border-radius: 5px;
-    width: calc(30.333% - 15px); /* Ancho para 3 tarjetas por fila, considerando el gap */
+    width: calc(30.333% - 15px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
 }
@@ -112,6 +112,6 @@ footer {
     margin-top: 10px;
 }
 .product-card:hover {
-    transform: translateY(-5px); /* Levanta un poco la tarjeta */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Añade una sombra más pronunciada */
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
